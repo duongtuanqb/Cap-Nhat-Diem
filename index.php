@@ -56,7 +56,7 @@
           <div class="panel panel-primary">
               <div class="panel-heading">
                 <h3 class="panel-title"><span class="glyphicon glyphicon-send" aria-hidden="true"></span> <span v-if="ok">Kết quả học tập của {{ name }}</span>
-            <!-- <span v-else-if="list">Kết quả học tập toàn lớp 14DDS04032</span> -->
+                <span v-else-if="list">Kết quả học tập toàn lớp 14DDS04032</span>
             <span v-else>Kết quả học tập</span></h3>
               </div>
               <div class="panel-body">
@@ -74,7 +74,7 @@
 
                       <span class="input-group-btn">
                         <button type="submit" class="btn btn-default" v-bind:disabled="loading"><span v-if="!loading" class="glyphicon glyphicon-ok" aria-hidden="true"></span> <i v-else class="fa fa-spinner fa-spin"></i> {{loading ? 'Loading...' : 'Scan'}} </button>
-                        <button v-on:click="diemToanLop" type="button" class="btn btn-success" v-bind:disabled="loading">Lớp 14DDS04032</button>
+<!--                         <button v-on:click="diemToanLop" type="button" class="btn btn-success" v-bind:disabled="loading">Lớp 14DDS04032</button> -->
                       </span>
                     </div>
                   </div>
