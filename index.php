@@ -7,7 +7,7 @@
     <meta http-equiv='cache-control' content='no-cache'>
   <meta http-equiv='expires' content='0'>
   <meta http-equiv='pragma' content='no-cache'>
-    <title>Điểm chát như quần què 😔</title>
+    <title>Buồn đến hao gầy 😔</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <style>
@@ -31,7 +31,7 @@
     }
   </style>
     <!-- Begin Open Graph metadata -->
-  <meta content='Điểm chát như quần què 😔' property='og:title'/>
+  <meta content='Buồn đến hao gầy 😔' property='og:title'/>
   <meta property="article:author" content="https://www.facebook.com/duongtuanqb" />
   <meta property="og:image" content="https://i.imgur.com/i9umQdh.jpg" />
   <!-- <meta property="og:image" content="http://i.imgur.com/uh68Nsm.jpg" /> -->
@@ -47,7 +47,7 @@
             <span v-if="ok">
             <a v-bind:href="'http://sinhvien.tdnu.edu.vn/XemDiem.aspx?MSSV='+mssv" target="_blank">{{ name }}</a></span>
             <span v-else-if="list"><a href="#">Kết quả học tập toàn lớp 14DDS04032 😔</a></span>
-            <span v-else><a href="#">Điểm chát như quần què 😔</a></span>
+            <span v-else><a href="#">Buồn đến hao gầy 😔</a></span>
           </h1>
         </div>
       </div>
@@ -55,8 +55,8 @@
         <div class="col-xs-12">
           <div class="panel panel-primary">
               <div class="panel-heading">
-                <h3 class="panel-title"><span class="glyphicon glyphicon-send" aria-hidden="true"></span> <span v-if="ok">Kết quả học tập của {{ ketqua.name }}</span>
-            <span v-else-if="list">Kết quả học tập toàn lớp 14DDS04032</span>
+                <h3 class="panel-title"><span class="glyphicon glyphicon-send" aria-hidden="true"></span> <span v-if="ok">Kết quả học tập của {{ name }}</span>
+            <!-- <span v-else-if="list">Kết quả học tập toàn lớp 14DDS04032</span> -->
             <span v-else>Kết quả học tập</span></h3>
               </div>
               <div class="panel-body">
